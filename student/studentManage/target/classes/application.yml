@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/spring_boot?serverTimezone=GMT%2B8
+#mybatis:
+#  mapper-locations: classpath*:/mybatis/mapper/StudentMapper.xml
